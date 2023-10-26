@@ -20,3 +20,12 @@ sudo apt-get install pyqt5-dev-tools 또는 sudo apt-get install qttools5-dev-to
 
 환경설정
 sudo raspi-config - Interfaces - (SPI, I2c, Serial Port, 1-Wire) Enabled 필요
+
+메인 실행파일
+smartfarm_control_ui_camera.py 작동 시 아래의 파일이 함께 작동됨
+test2.ui
+
+어플리케이션의 메인화면 이미지 첨부를 위해
+smartfarm_control_ui_camera.py 소스코드 내부의 smartfarm_ui클래스 내부 image_paths 경로 설정이 필요함(이미지 파일이 있는 경로)
+
+
